@@ -3,24 +3,41 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Esta páginas contém as receitas deliciosas do Otacilio Maia">
+        <meta name="description" content="Página do curso de HTML e CSS">
         <meta name="robots" content="index,follow" />
-        <title>Receitas do Otacilio</title>
+        <title>Curso de HTML e CSS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
         <header>
-            <h1>Exemplo de videos</h1>
+            <h1>Exemplo de formulário</h1>
         </header>
         <main>
             <section>
-                <h1>Exemplo de vídeo</h1>
-                <audio controls preload="auto"">
-                    <source src="assets/exemploaudio.mp3">
-                    <source src="assets/exemploaudio.wav">
-                </audio>
+                <!-- jeito errado -->
+                <!-- <div>
+                    <input type="text" />
+                    <input type="text" />
+                    <input type="text" />
+                    <input type="text" />
+                </div> -->
+
+                <form>
+                    <label for="nome">
+                        <span>Qual é o seu nome?</span>
+                        <input type="text" id="nome" placeholder="Seu nome">
+                    </label>
+                    <label for="inicio-platzi">
+                        <span>Que dia você começou a estudar na Platzi?</span>
+                        <input type="date" id="inicio-platzi">
+                    </label>
+                    <label for="horario">
+                        <span>Em que horário você estuda pela platzi?</span>
+                        <input type="time" id="horario">
+                    </label>
+                </form>
             </section>
         </main>
         <footer>
