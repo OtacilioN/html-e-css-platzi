@@ -1,27 +1,14 @@
-.main-nav{
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0px;
-    background-color: #13a4a4;
+h1{
+    font-family: serif;
 }
 
-.main-nav__item{
-    display: inline-block;
-    
+#page-title {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-nav__item a{
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-}
-
-.main-nav__item a:hover{
-    color: blue;
-}
-
-.main-nav__item a::after {
-    content: " |";
+.title{
+    font-size: 18px;
+    font-family: monospace !important;
 }
 
 section {
@@ -29,6 +16,24 @@ section {
     /* font-size: 24px; */
 }
 
-h1 {
-    font-size: inherit;
+#main-nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: white;
+    background-color: #13a3a3;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+#main-nav .blog {
+    background-color: orange;
 }
