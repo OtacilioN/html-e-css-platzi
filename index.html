@@ -17,19 +17,18 @@
         <main>
             <section>
                 <form>
-                    <!-- <select name="cursos">
-                        <option value="HTML e CSS">HTML e CSS</option>
-                        <option value="Git e GitHub">Git e GitHub</option>
-                        <option value="PWA com React.js">PWA com React.js</option>
-                    </select> -->
-                    <input name="cursos" list="cursos"/>
-                    <datalist id="cursos">
-                        <option value="HTML e CSS"></option>
-                        <option value="Git e GitHub"></option>
-                        <option value="PWA com React.js"></option>
-                    </datalist>
-
-                    <input type="submit" value="Reservar" />
+                    <label for="nome">
+                        <span>Qual é seu nome?</span>
+                        <input required type="text" name="nome" id="nome" autocomplete="on">
+                    </label>
+                    <input type="submit" />
+                </form>
+                <form>
+                    <label for="nome">
+                        <span>Qual é seu nome com button?</span>
+                        <input required type="text" name="nome" id="nome" autocomplete="on">
+                    </label>
+                    <button type="submit" >Enviar nome</button>
                 </form>
             </section>
         </main>
