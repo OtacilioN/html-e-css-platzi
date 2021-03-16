@@ -41,9 +41,17 @@ section {
 .exemplo-medidas{
     width: 100%;
     /* height: 100%; */
-    background-color: red;
+    font-size: 50px;
 }
 
 main{
     height: 100vh;
+}
+
+.exemplo-rem {
+    font-size: 1rem;
+}
+
+.exemplo-em{
+    font-size: 1em;
 }
