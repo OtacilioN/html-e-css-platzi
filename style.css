@@ -1,14 +1,25 @@
-p{
-    color: greenyellow;
-    font-size: 20px;
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
 }
 
-.por-seletor{
-    color: palevioletred;
-    font-size: 30px;
+.main-nav__item{
+    display: inline-block;
+    
 }
 
-#por-id{
-    color: goldenrod;
-    font-size: 50px;
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: blue;
+}
+
+.main-nav__item a::after {
+    content: " |";
 }
