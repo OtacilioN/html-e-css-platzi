@@ -17,18 +17,18 @@
         <main>
             <section>
                 <form>
-                    <label for="nome">
-                        <span>Qual é seu nome?</span>
-                        <input required type="text" name="nome" id="nome" autocomplete="on">
-                    </label>
-                    <label for="email">
-                        <span>Qual é o seu email?</span>
-                        <input type="email" name="email" id="email" autocomplete="email" >
-                    </label>
-                    <label for="cep">
-                        <span>Qual o seu CEP?</span>
-                        <input type="text" name="cep" id="cep" autocomplete="postal-code">
-                    </label>
+                    <!-- <select name="cursos">
+                        <option value="HTML e CSS">HTML e CSS</option>
+                        <option value="Git e GitHub">Git e GitHub</option>
+                        <option value="PWA com React.js">PWA com React.js</option>
+                    </select> -->
+                    <input name="cursos" list="cursos"/>
+                    <datalist id="cursos">
+                        <option value="HTML e CSS"></option>
+                        <option value="Git e GitHub"></option>
+                        <option value="PWA com React.js"></option>
+                    </datalist>
+
                     <input type="submit" value="Reservar" />
                 </form>
             </section>
