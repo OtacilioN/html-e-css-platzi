@@ -49,30 +49,24 @@ main{
 }
 
 .big-box {
-    border: 2px black dotted;
-    display: flex;
-    height: 300px;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+    border: 1px black dotted;
+    padding-left: 2%;
 }
 
 .small-box{
-    height: 50px;
-    background-color: indigo;
-    margin: 16px;
-    color: white
+    background-color: rosybrown;
+    width: 98%;
+    display: inline-block;
 }
 
-#one {
-    flex: 1;
+@media(min-width: 600px){
+    .small-box{
+        width: 48%;
+    }
 }
-#two {
-    flex: 2;
-}
-#three {
-    flex: 1;
-}
-#four {
-    flex: 1;
+
+@media(min-width: 800px){
+    .small-box{
+        width: 24%;
+    }
 }
