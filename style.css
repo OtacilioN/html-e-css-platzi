@@ -48,10 +48,15 @@ main{
     height: 100vh;
 }
 
-.exemplo-rem {
-    font-size: 1rem;
+.big-box {
+    max-width: 50vw;
+    background-color: indianred;
 }
 
-.exemplo-em{
-    font-size: 1em;
+.small-box{
+    height: 80px;
+    width: 80px;
+    background-color: indigo;
+    margin: 16px;
+    display: inline-block;
 }
