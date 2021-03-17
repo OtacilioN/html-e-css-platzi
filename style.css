@@ -50,13 +50,29 @@ main{
 
 .big-box {
     border: 2px black dotted;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .small-box{
-    height: 80px;
-    width: 80px;
+    height: 50px;
     background-color: indigo;
     margin: 16px;
-    display: inline-block;
     color: white
+}
+
+#one {
+    flex: 1;
+}
+#two {
+    flex: 2;
+}
+#three {
+    flex: 1;
+}
+#four {
+    flex: 1;
 }
