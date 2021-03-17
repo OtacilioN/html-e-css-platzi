@@ -49,8 +49,7 @@ main{
 }
 
 .big-box {
-    max-width: 50vw;
-    background-color: indianred;
+    border: 2px black dotted;
 }
 
 .small-box{
@@ -59,4 +58,16 @@ main{
     background-color: indigo;
     margin: 16px;
     display: inline-block;
+}
+
+#two {
+    background-color: orange;
+    position: absolute;
+    top: 30px;
+}
+
+#three {
+    background-color: red;
+    position: absolute;
+    top: 50px;
 }
