@@ -58,16 +58,5 @@ main{
     background-color: indigo;
     margin: 16px;
     display: inline-block;
-}
-
-#two {
-    background-color: orange;
-    position: absolute;
-    top: 30px;
-}
-
-#three {
-    background-color: red;
-    position: absolute;
-    top: 50px;
+    color: white
 }
